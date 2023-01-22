@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.Agung-Container {
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    border-radius: 6px;
+    padding: 30px;
+    margin: 0 15px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Agung-Heading1 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+.Agung-Heading2 {
+    padding-left: 25px;
+    padding-bottom: 85px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.Agung-Heading3 {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.Agung-heading3, .Agung-h3, .Agung-H3 {
+    padding-left: 25px;
+    padding-bottom: 50px;
+    font-size: 30px;
+}
+
+.AgungLabelVolt, .AgungLabelTegangan {
+    padding-left: 25px;
+    padding-right: 37px;
+    font-size: 20px;
+}
+
+.AgungInputVolt, .AgungInputTegangan, .AgungInputHambatan, .AgungInputArus {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 17px;
+}
+
+.AgungInputHambatan:hover {
+    background-color: rgba(0, 255, 255, 0.171);
+}
+
+.AgungInputHambatan:active {
+    background-color: rgb(255, 255, 255);
+}
+
+.AgungInputVolt:hover {
+    background-color: rgba(0, 255, 255, 0.171);
+}
+
+.AgungInputVolt:active {
+    background-color: rgb(255, 255, 255);
+}
+
+.AgungInputTegangan:hover {
+    background-color: rgba(0, 255, 255, 0.171);
+}
+
+.AgungInputTegangan:active {
+    background-color: rgb(255, 255, 255);
+}
+
+.AgungInputArus:hover {
+    background-color: rgba(0, 255, 255, 0.171);
+}
+
+.AgungInputArus:active {
+    background-color: rgb(255, 255, 255);
+}
+
+.AgungHasilArus:hover {
+    color: black;
+}
+
+.AgungHasilArus:active {
+    background-color: rgb(255, 255, 255);
+}
+
+.AgungHasilTegangan:hover {
+    color: black;
+}
+
+.AgungHasilTegangan:active {
+    background-color: rgb(255, 255, 255);
+}
+
+.AgungLabelHambatan  {
+    padding-right: 33px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+.AgungHasilArus, .AgungHasilTegangan {
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    padding: 10px 20px;
+    font-size: 17px;
+    margin-left: 25px;
+}
+
+.AgungArus, .AgungTegangan {
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    margin-top: 25px;
+    font-size: 20px;
+    border-radius: 6px;
+    background-color: rgba(206, 206, 206, 0.418);
+}
+
+.AgungHR-1, .AgungHR-2 {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.AgungHR-3 {
+    margin-top: 75px;
+}
+
+
+.AgungLabelArus {
+    padding-left: 25px;
+    padding-right: 39px;
+    font-size: 20px;
+}
+
